@@ -5,6 +5,7 @@ const CordovaHtmlOutputPlugin = require('../webpack/plugins/CordovaHtmlOutputPlu
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = function() {
+  console.log(`webpack.dev: process.env.NODE_ENV=${process.env.NODE_ENV}`)
   return webpackMerge(commonConfig({ mode: 'development' }), {
     module: {
       rules: [

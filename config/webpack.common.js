@@ -7,6 +7,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const entryFile = path.join(__dirname + '/../src/main.js');
 
 module.exports = function (options) {
+  console.log(`webpack.common: process.env.NODE_ENV=${process.env.NODE_ENV}`)
   return {
     mode: options.mode,
     entry: entryFile,

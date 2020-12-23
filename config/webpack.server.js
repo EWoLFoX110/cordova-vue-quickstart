@@ -6,6 +6,7 @@ const commonConfig = require('./webpack.common');
 const devServerPort = 8081;
 
 module.exports = function() {
+  console.log(`webpack.server: process.env.NODE_ENV=${process.env.NODE_ENV}`)
   return webpackMerge(commonConfig({ mode: 'development' }), {
     module: {
       rules: [
