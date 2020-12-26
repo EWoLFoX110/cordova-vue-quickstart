@@ -112,3 +112,4 @@ dist
 
 /www/
 /package-lock.json
+/.vscode/
