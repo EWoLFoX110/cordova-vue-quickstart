@@ -15,7 +15,6 @@
   "author": "hal.wong",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.1",
     "vue": "^2.6.12",
     "vue-router": "^3.4.9",
     "vuex": "^3.6.0"
@@ -67,7 +66,8 @@
       "cordova-plugin-whitelist": {}
     },
     "platforms": [
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
