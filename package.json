@@ -75,9 +75,6 @@
     "plugins": {
       "cordova-plugin-whitelist": {}
     },
-    "platforms": [
-      "browser",
-      "android"
-    ]
+    "platforms": []
   }
 }
